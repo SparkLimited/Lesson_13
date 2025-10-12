@@ -242,7 +242,8 @@ body {
 }
 
 .business__img:hover::before {
-    opacity: 0.3s;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
 .business__img img {
